@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": "v20.13.1"
+  },
+  "scripts": {
+    "cypress:web": "npx cypress open",
+    "cypress:handless": "npx cypress run --browser electron"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^13.7.2"
+  }
+}
